@@ -1,0 +1,12 @@
+div{
+    padding: 20px;
+    transition: 0,.2s;
+}
+.dark{
+    background-color: black;
+    color:white;
+}
+.modoClaro{
+    background-color: lightblue;
+    color: blue;
+}

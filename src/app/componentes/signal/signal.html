@@ -1,3 +1,21 @@
 <div class="signal-container">
-    <p>signal works!</p>
+    <h1>Contador " {{count()}}" </h1>
+    <div class="botones">
+        <button class="btn button" (click)="incrementar()">+1</button>
+        <button class="btn button" (click)="decrementar()">-1</button>
+    </div>
+</div>
+<div class="signal-container">
+    <h3>Price:{{this.price()}}</h3>
+    <h3>IVA:{{this.iva()}}</h3>
+    <h3>Total:{{this.total()}}</h3>
+    <div class="botones">
+        <button class="btn button" (click)="subir()">+10</button>
+    </div>
+</div>
+<div class="signal-container">
+    <h2>Clicks: {{this.clicks()}}</h2>
+    <div class="botones">
+        <button class="btn button" (click)="add()">Click</button>
+    </div>
 </div>

@@ -1,0 +1,10 @@
+<!-- <div [class.dark] = "isDark()">
+    <h1>Tema Actual: {{isDark() ? 'Oscuro' : 'Claro'}}</h1>
+    <button (click)="toogle()">Cambiar Tema</button>
+</div> -->
+
+<input type="text" (input)="changeName($event)"
+ placeholder="Entra tu nombre">
+
+ <h2>Hola, {{name()}}</h2>
+ <p>Tu nombre tiene {{length()}} letras</p>
